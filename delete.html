@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>update php</title>
+    <style>
+        .form{
+            margin: auto;
+            font-size: 25px;
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            width:70% ;
+            height: 100vh;
+
+        }
+        input{
+            width:70% ;
+            border-radius: 10%;
+            transition: 2s;
+            text-align: center;
+        }
+        input:hover{
+            width:74% ;
+            border-radius: 15%;
+            height: 35px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <form action="delete.php" method="post">
+            <input type="number" name="updateid" placeholder="update id" > <br>
+            
+            <button name="submit" type="submit">delete</button>
+
+        </form>
+
+    </div>
+    
+</body>
+</html>
